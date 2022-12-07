@@ -1,0 +1,18 @@
+body {
+    font-size: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+details {
+    padding 10px;
+}
+
+summary {
+    color: sienna;
+}
+
+footer {
+    padding: 30px;
+}
