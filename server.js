@@ -20,7 +20,7 @@ app.use(function(err, req, res, next){
   res.status(500).send('Something bad happened!');
 });
 
-app.use(express.static('public'))
+app.use(express.static(__dirname + '/public'))
 app.listen(port, ip);
 console.log('Server running on http://%s:%s', ip, port);
 
